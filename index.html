@@ -94,6 +94,15 @@
         margin-right: auto;
     }
   
+      
+      .heading2 {
+          top: 1750px;
+      }
+      
+      .p2 {
+          top: 250px;
+      }
+      
       .image-container {
           display: flex;
           justify-content: center;
@@ -108,13 +117,25 @@
           object-fit: cover;
       }
       
-      .heading2 {
-          top: 1800px;
-      }
-      
-      .p2 {
-          top: 250px;
-      }
+    .image-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 40px;
+    }
+
+    .image-gallery .small-image {
+        width: 45%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .image-gallery .large-image {
+        width: 93%;
+        height: auto;
+        object-fit: cover;
+    }
       
       footer {
         background-color: #ECDEC5;
@@ -191,6 +212,7 @@
     <img class="history1" src="AdobeStock_834014563.jpeg" alt="construction">
     <img class="history2" src="AdobeStock_904116189.jpeg" alt="construction">
   </div>
+
   
   <h2 class="heading2">Today</h2>
 
@@ -199,6 +221,12 @@
 
     <br>Being located in Stratford, Ontario brings people from all over the world. We encourage a safe and inclusive viewing environment so that everyone has the opportunity to witness and experience traditional art like they have never seen before. 
   </p>
+  
+  <div class="image-gallery">
+    <img class="small-image" src="AdobeStock_444795243_Editorial_Use_Only.jpeg" alt="Gallery 1">
+    <img class="small-image" src="AdobeStock_632495264.jpeg" alt="Gallery 2">
+    <img class="large-image" src="AdobeStock_496750670.jpeg" alt="Gallery 3">
+</div>
   
   <footer>
     Sign up for our Newsletter
